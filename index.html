@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <input type="text" id="pass"></div>
-        <button onclick="generatePass()">Generate</button>
-        <button onclick="copy()">copy</button>
+        <h2>Password generator</h2>
+        <input type="text" id="pass">
+    <button onclick="generatePass()"><img src="generate.png" id="generate"></button>
+        <button  onclick="copy()"><img src="copy.png" id="copy"></button>
     </div>
+        
+    
     <script>
         const pass=document.getElementById("pass")
         const length=12
